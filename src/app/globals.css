@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-cream: #F8F1E9;
+  --color-champagne: #D7BEA0;
+  --color-soft-beige: #E9D9C5;
+  --color-warm-brown: #755638;
+  --color-deep-brown: #49372D;
+  --color-light-card: #FCF8F3;
+  --color-muted: #79685B;
+  --color-accent: #A47C4F;
+  --color-accent-hover: #96744D;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-cream: var(--color-cream);
+  --color-champagne: var(--color-champagne);
+  --color-soft-beige: var(--color-soft-beige);
+  --color-warm-brown: var(--color-warm-brown);
+  --color-deep-brown: var(--color-deep-brown);
+  --color-light-card: var(--color-light-card);
+  --color-muted: var(--color-muted);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
   --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-cormorant);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #F8F1E9;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #F8F1E9;
+  color: #49372D;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont,
+    sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
+
+:focus-visible {
+  outline: 2px solid #A47C4F;
+  outline-offset: 2px;
+}
+
+
