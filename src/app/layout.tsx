@@ -3,6 +3,7 @@ import { Cormorant, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { CartProvider } from "@/context/CartContext";
 
 const cormorant = Cormorant({
   variable: "--font-cormorant",
@@ -28,10 +29,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${inter.variable} h-full`} style={{ backgroundColor: "#F8F1E9" }}>
-      <body className="min-h-full antialiased" style={{ backgroundColor: "#F8F1E9", color: "#49372D" }}>
-        <Header />
-        {children}
-        <Footer />
+      <body className="min-h-full antialiased pt-14 sm:pt-16 md:pt-[4.25rem]" style={{ backgroundColor: "#F8F1E9", color: "#49372D" }}>
+        <CartProvider>
+          <Header />
+          {children}
+          <Footer />
+        </CartProvider>
       </body>
     </html>
   );

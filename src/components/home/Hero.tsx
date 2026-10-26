@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="relative overflow-hidden">
             <div className="relative h-[60vh] min-h-105 w-full sm:h-[70vh] md:h-[80vh]">
               <Image
-                src="/images/Models/Hero model.jpeg"
+                src="/images/Models/hero model.jpeg"
                 alt="Veloura model with radiant natural skin in warm cream and beige tones"
                 fill
                 priority
@@ -31,7 +31,7 @@ export default function Hero() {
                     Thoughtfully curated beauty essentials for your skin,  body and hair. Make every moment feel a little more luxurious.
                   </p>
                   <Link
-                      href="/shop"
+                      href="/products"
                       className="mt-4 inline-flex items-center gap-3 bg-[#A47C4F] px-7 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#96744D] focus-visible:outline-offset-4"
                     >
                       Discover Veloura

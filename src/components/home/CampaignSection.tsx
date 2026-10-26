@@ -26,13 +26,7 @@ export default function CampaignSection() {
           <p className="mt-6 text-base leading-8 text-[#79685B]">
             From silky cleansers to weightless oils, Veloura brings a sense of calm and refinement to your everyday routine.
           </p>
-          <Link
-            href="/collections/hair-care"
-            className="mt-8 inline-flex items-center gap-3 border border-[#A47C4F] px-7 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#A47C4F] transition hover:bg-[#A47C4F] hover:text-white"
-          >
-            View the edit
-            <span aria-hidden="true">→</span>
-          </Link>
+          
         </div>
       </div>
     </section>

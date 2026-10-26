@@ -13,13 +13,7 @@ export default function BrandStory() {
       <p className="mx-auto mt-5 max-w-lg text-sm leading-8 text-[#79685B]">
         Veloura brings together refined, considered essentials — designed to make space for you, every single day.
       </p>
-      <Link
-        href="/about"
-        className="mt-8 inline-flex items-center gap-3 border border-[#A47C4F] px-7 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#A47C4F] transition hover:bg-[#A47C4F] hover:text-white"
-      >
-        Our Story
-        <span aria-hidden="true">→</span>
-      </Link>
+      
     </section>
   );
 }
