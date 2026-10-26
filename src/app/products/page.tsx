@@ -14,7 +14,7 @@ export default function ProductsPage() {
       <section className="relative overflow-hidden">
         <div className="relative h-[60vh] min-h-105 w-full sm:h-[70vh] md:h-[80vh]">
           <Image
-            src="/images/Models/herr model.jpeg"
+            src="/images/Models/Herr model.jpeg"
             alt="Veloura model with radiant natural skin in warm cream and beige tones"
             fill
             priority
