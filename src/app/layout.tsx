@@ -17,9 +17,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "VELOURA | Your beauty. Your ritual.",
-  description:
-    "A polished, premium multi-category beauty boutique for skincare, serums, moisturisers, sunscreen, body care, hair care, makeup, soaps, lotions and curated beauty sets.",
+  title: "VELOURA | Your Beauty. Your Ritual.",
+  description: "Discover beauty essentials thoughtfully chosen for your everyday routine.",
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
